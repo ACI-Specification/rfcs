@@ -3,11 +3,11 @@
 ## Summary
 
 The ACI Specification will be developed through a serious of documents, called "Requests for Comment" or "RFC"s, 
-which will provide the basis for the policies of the ACI Specification Project and the normative text for 
+which will provide the basis for the policies of the ACI Specification Project and the normative text for the specification.
 
 ## Motivation
 
-<!--Provide a more concrete reasoning for this proposal-->
+A Community Oriented Process for creating and evolving the ACI Specification is desirable. Using a public "Request for Comments" system allows the Core Interest Groups of the ACI Specification to meaningfully debate the specification while making it easy for community members with their own interests to comment on the development.
 
 ## Informative Explanation
 
@@ -29,8 +29,6 @@ An RFC is required for a proposal if it makes any of the following changes:
 * It modifies any of the primary specification of any part of ACI (hardware interface, standard firmware interface, host software programming),
 * It establishes a project-wide policy, or charters a group within the project designed to carry out specification work in a formal manner,
 * It creates a registry within the ACI Registries,
-* It assigns a "Well Known" class id within the class registry,
-* It modifies a subclass registry for a "Well Known" class,
 * Or otherwise if it meaningfully amends any preexisting RFC.
 
 An RFC may also be useful, but is not necessarily required, if the change has wide impact on the project, or is important in a meaningful way.
@@ -45,25 +43,26 @@ An RFC is not required for any of the following:
 The following is the Lifecycle of every RFC
 
 0. Pre-Review (Optional): The RFC is brought for informal review and drafting, in an incomplete (or Pre-RFC) form designed for drafting and initial design,
-1. Submission: The RFC is submitted to <http://github.com/ACI-Specific/rfcs> as a Pull Request. Generally, the RFC must contain the content set forth in the [content][#content] section,
+1. Submission: The RFC is submitted to <http://github.com/ACI-Specific/rfcs> as a Pull Request. Generally, the RFC must contain the content set forth in the [content](#content) section,
 2. Review and Iteration: The Pull Request is reviewed and discussed, with appropriate concerns, design questions, proposed design changes, and appropriate changes are made to address these concerns, 
 3. Approval: Once the RFC is reviewed appropriately the Core Interest Groups must approve for it to be merged. Approval represents consensus to adopt the RFC.
+4. Final Comment Period: After approval the RFC must undergo a 7 day final comment period. Approval may be revoked at any point by either CIG.
 4. RFC Number Assignment: The RFC is assigned a number based on its PR Number and the document is renamed accordingly.
 
 An RFC may be explicitly closed also by request of all of the Core Interest Groups - this indicates that there is consensus not to move forward at the current time. A Closed RFC may be reopened or refiled in the future.
 
-After approval, any member of the Project may perform the RFC Number Assignment (if the Number was not previously assigned) and merge the RFC.
+After approval and the final comment period, any member of the Project may perform the RFC Number Assignment (if the Number was not previously assigned) and merge the RFC.
 
 ### Content
 
-Generally, an RFC must specify at least the following:
+Generally, an RFC must contain at least the following:
 * A One to two paragraph summary of the RFC,
 * Motivation for the RFC and the underlying proposal,
 * An Informative Explanation of the proposal,
 * The Normative Text of the proposal.
 
 Additionally, an RFC should specify the following, as applicable:
-* Any Security Considerations that may apply to the RFC,
+* Any Security Considerations that may apply to the RFC, both as to users and ,
 * Any Impacts on the ACI Registries,
 * A description of Prior Art that informed the proposal,
 * A description of Future Changes that can be made in respect to the RFC.
@@ -72,7 +71,9 @@ Additionally, an RFC should specify the following, as applicable:
 
 Each RFC is provided under a unified license. Everyone who submits an RFC must permit the ACI Project to license the RFC under the unified license. 
 
-The License for RFCs is currently (BIKESHED).
+The License for RFCs is currently (BIKESHED) and requires an RFC to change. 
+
+The RFC License shall always be an Open Documentation License.
 
 ## Security Considerations
 
