@@ -11,15 +11,13 @@ A Community Oriented Process for creating and evolving the ACI Specification is 
 
 ## Informative Explanation
 
-<!--Provide an informative explanation of proposal. 
-This is intended to be read by someone who wishes to understand the proposal but may not have advanced technical background.
-This section is intended for:
-* People working with ACI at a high level, probably via tooling,
-* People wishing to learn about ACI without delving into low-level details,
-* Aiding in understanding the Normative Text section,
-* People wishing to learn the structure of the Project (for policy proposals)
+The RFC Process is the mechanism for evolution of the ACI Specification. Throughout the lifecycle of the project, documents, known as Requests for Comments or RFCs will be published for review, comment, and consensus. These documents are used to change and evolve the ACI Specification itself, a project-level policy, or other major portions of the ACI Specification Project. 
 
-This section is not normative-->
+While an RFC is "Live", it is open to public review comment, not restricted to members of the project or Core Interest Groups. Likewise, anyone may open an RFC to public comment, subject to policies regarding contributions. After comment, the "Core Interest Groups" (those with direct stake in the project), approve or reject the RFC, which is followed by a period for final comment, where outstanding concerns can be raised and addressed. 
+
+An RFC is proposed and becomes "Live" by opening a pull request to <https://github.com/ACI-Specification/rfcs> with the rfc text in a new item in the src/rfcs folder.
+
+A Template for RFCs is provided, and can be used to aid in authoring RFCs. The template sets out required, recommended, or suggested parts of the RFC and what questions an RFC should address. It includes explanations of each section.
 
 ## Normative Text
 
@@ -65,7 +63,7 @@ Additionally, an RFC should specify the following, as applicable:
 * Any Security Considerations that may apply to the RFC, both as to users and ,
 * Any Impacts on the ACI Registries,
 * A description of Prior Art that informed the proposal,
-* A description of Future Changes that can be made in respect to the RFC.
+* A description of Future Changes and Directions that can be made in respect to the RFC.
 
 ### Copyright Licenses and Notices
 
@@ -74,6 +72,13 @@ Each RFC is provided under a unified license. Everyone who submits an RFC must p
 The License for RFCs is currently (BIKESHED) and requires an RFC to change. 
 
 The RFC License shall always be an Open Documentation License.
+
+### RFC Template
+
+An RFC Template shall be provided to aid in the authoring of RFCs. The template shall provide sections for the elements of an RFC set forth in the Content section.
+Use of the template is not required for an RFC, however.
+
+Modifying the template is not an RFC of its own, but still requires a PR approved by the Core Interest Groups.
 
 ## Security Considerations
 
@@ -88,6 +93,6 @@ There are no security considerations for this RFC, as it strictly defines a poli
 
 * This policy does not specify the method for fixing "releases" of the Specification, whether the specification is simply a snapshot of the merged RFCs as a whole at any given time, or some formal stabilization process is required,
     * Likewise, it is not yet specified how or if releases will be "versioned", and how versions will be designated or discovered,
-* The Policy also Leaves Open how to modify RFCs for non-technical reasons,
+* The Policy also Leaves Open how to modify RFCs for non-technical reasons (such as for editorial purposes),
 * While Copyright is addressed by the Policy, Patent considerations are currently omitted. This will need to be addressed at some point in the future,
 * Finally, the policy requires RFCs to be approved by the Core Interest Groups. In the future a proper team may be chartered for this purpose, and certain kinds of RFCs may be delegated to other such teams.
