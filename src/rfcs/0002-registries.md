@@ -2,7 +2,7 @@
 
 ## Summary
 
-The ACI Specification Project is to maintain several registries, which are both machine and human readable, which contain important information 
+The ACI Specification Project is to maintain several registries, which are both machine and human readable, which contains important information necessary to centralize.
 
 ## Motivation
 
